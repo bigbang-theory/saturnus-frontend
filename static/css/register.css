@@ -20,46 +20,39 @@
 }
 
 .wrapper .form-left{
-    background: #fff;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background: #003F62;
+    border-radius: 25px;
     padding: 55px 40px;
     position: relative;
     width: 100%;
+    color: #003F62;
+}
+.wrapper .form-left .card{
+    background-color: #003F62;
     color: #fff;
+    border: #003F62;
 }
-
-.wrapper h2{
-    font-weight: 700;
-    font-size: 25px;
-    padding: 5px 0 0;
-    margin-bottom: 34px;
-    pointer-events: none;
+.wrapper .form-left .card-img-left {
+    width: 250px;
+    float: left;
+    clear: left;
+    margin-right: 50px;
 }
-
-.wrapper .form-left p{
-    font-size: 0.9rem;
-    font-weight: 300;
-    line-height: 1.5;
-    pointer-events: none;
+  
+.wrapper .form-left .card-img-right {
+    width: 250px;
+    float: right;
+    clear: right;
+    margin-left: 50px;
 }
+  
 
-.wrapper .form-left .text{
-    margin: 20px 0 25px;
-}
-
-.wrapper .form-left p span{
-    font-weight: 700;
-}
-
-.wrapper .form-left input{
-    padding: 15px;
-    background: #fff;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.wrapper .form-left{
+    padding: 25px;
+    background: #003F62;
     width: 100%;
     border: none;
-    margin: 15px 0 50px 0px;
+    margin: 25px 20px 20px 20px;
     cursor: pointer;
     color: #333;
     font-weight: 700;
@@ -68,10 +61,13 @@
     outline: none;
 }
 
-.wrapper .form-left input:hover{
-    background-color: #f2f2f2;
+.wrapper .form-right h2{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 0 0;
+    margin-bottom: 50px;
+    pointer-events: none;
 }
-
 .wrapper .form-right{
     padding: 20px 25px;
     position: relative;
@@ -79,11 +75,10 @@
 }
 .wrapper .form-right h1{
     margin-top: 40px;
-    ;
 }
 .wrapper .form-right h2{
     color:#000;
-    margin-top: 40px;
+    /* margin-top: 20px; */
 }
 
 .wrapper .form-right label{
@@ -102,10 +97,6 @@
     padding: 5px 10px;
     outline: none;
     color: #333;
-}
-
-.wrapper .form-right .form-control:focus{
-    border: none solid #31a031;
 }
 
 .wrapper .register{
