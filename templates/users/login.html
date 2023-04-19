@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}"
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}"
         type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Login</title>
 </head>
 <body>
     <div class="picture">
-        <img src="{{url_for('static', filename='shopping.png')}}" id="shopping">
-        <img src="{{url_for('static', filename='grocery.png')}}" id="grocery">
+        <img src="{{url_for('static', filename='img/shopping.png')}}" id="shopping">
+        <img src="{{url_for('static', filename='img/grocery.png')}}" id="grocery">
         <p id="sign">Sign In to Saturnus<p>
         <p id="lorem">Lorem Ipsum is Simply</p>
     </div>
@@ -63,10 +63,10 @@
             </svg>
         </a>
         <a href="" id="apple">
-            <img src="/static/apple.png" id="apple">
+            <img src="{{url_for('static', filename='img/apple.png')}}" id="apple">
         </a>
         <a href="" id="google">
-           <img src="/static/google-symbol.png" id="google">
+           <img src="{{url_for('static', filename='img/google-symbol.png')}}" id="google">
         </a>
     </div>
     <script>
